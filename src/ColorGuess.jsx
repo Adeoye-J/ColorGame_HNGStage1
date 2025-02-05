@@ -92,7 +92,7 @@ export default function ColorGuess() {
       </button>
       {showAnimation === "correct" && (
         <motion.div
-          className="absolute inset-0 flex items-center justify-center text-green-500 text-5xl font-extrabold"
+          className="absolute inset-0 flex items-center justify-center text-green-500 text-4xl font-bold"
           animate={{ opacity: [1, 0] }}
           transition={{ duration: 2 }}
         >
@@ -101,7 +101,7 @@ export default function ColorGuess() {
       )}
       {showAnimation === "wrong" && (
         <motion.div
-          className="absolute inset-0 flex items-center justify-center text-red-500 text-5xl font-bold"
+          className="absolute inset-0 flex items-center justify-center text-red-500 text-4xl font-bold"
           animate={{ opacity: [1, 0] }}
           transition={{ duration: 2 }}
         >
